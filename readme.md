@@ -18,5 +18,6 @@ _Throughout the different stages of our project, various programs and programmin
 * Manu Antonio Pardo Rivas.
 * Matilde Andrea Gaete Tapia.
 * Emmanuel Ángel Blue Norambuena Sepúlveda.
-* Agustín Salomón.
+* Agustín Iñaki Joshua Salomón Monsalvéz.
+* Tomás Meier Aparicio.
 * Alberto Benjamín Osorio Muñoz.
