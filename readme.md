@@ -7,7 +7,7 @@ _Meet Your Cosmos corresponds to a project carried out to participate in **Space
 _Our project responds to the need of having a friendly, fast and concrete data visualization. For this our main challenge is the search for an efficient process to adapt and display our information. In addition, the creation of an accessible interface for the largest possible audience, without losing professionalism_
 
 
-## Construido con
+## Built with
 
 _Throughout the different stages of our project, various programs and programming languages were used, among which the following stand out_
 
