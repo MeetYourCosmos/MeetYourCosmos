@@ -4,8 +4,8 @@ _Meet Your Cosmos corresponds to a project carried out to participate in **Space
 
 ## About 
 
-_Our project responds to the need of having a friendly, fast and concrete data visualization. For this our main challenge is the search for an efficient process to adapt and display our information. In addition, the creation of an accessible interface for the largest possible audience, without losing professionalism._
-
+_Our project responds to the need of having a fast, friendly and concrete way of accessing information about our universe. For this, our main challenge resides in the search of an efficient process to adapt and display information, while at the same time, creating an accessible interface for the largest possible audience without losing professionalism._
+_The problem with sites like NASA´s Archive of Data on Energetic Phenomena ([HEASARC](https://heasarc.gsfc.nasa.gov/cgi-bin/Tools/viewing/viewing.pl)) and the Canadian Astronomy Data Centre ([CADC](https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/)) is that they have archaic and dated interfaces, which makes navigating them tedious and complicated. As such, in order to fulfill this goal, we accessed several databases like the aforementioned two, and using languages like Python, processed files and articles to display them in html and css, providing us with a site that astronomy fanatics, students and professionals can find useful and enjoyable._
 
 ## Built with
 
@@ -19,5 +19,5 @@ _Throughout the different stages of our project, various programs and programmin
 * Matilde Andrea Gaete Tapia.
 * Emmanuel Ángel Blue Norambuena Sepúlveda.
 * Agustín Iñaki Joshua Salomón Monsalvéz.
-* Tomás Meier Aparicio.
+* Tomás Alberto Meier Aparicio.
 * Alberto Benjamín Osorio Muñoz.
