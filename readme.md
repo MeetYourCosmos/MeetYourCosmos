@@ -12,7 +12,8 @@ _The problem with sites like NASA´s Archive of Data on Energetic Phenomena ([HE
 _Throughout the different stages of our project, various programs and programming languages were used, among which the following stand out._
 
 * [Git](https://git-scm.com/) - Version control software.
-* [Google Colaboratory](https://colab.research.google.com/) - Writer and executor of Python code, in a browser.
+* [WordPress](https://wordpress.com/) - content management system.
+* [Phpmyadmin](https://www.phpmyadmin.net/) - Tool written in PHP with the intention of handling the administration of MySQL.
 
 ## Team
 * Manu Antonio Pardo Rivas.
