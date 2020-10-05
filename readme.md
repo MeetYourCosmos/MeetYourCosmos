@@ -15,6 +15,11 @@ _Throughout the different stages of our project, various programs and programmin
 * [WordPress](https://wordpress.com/) - content management system.
 * [Phpmyadmin](https://www.phpmyadmin.net/) - Tool written in PHP with the intention of handling the administration of MySQL.
 
+## To Do
+* Connect database to web interface
+* Include dependencies of nasa press
+* Add graphical overview
+
 ## Team
 * Manu Antonio Pardo Rivas.
 * Matilde Andrea Gaete Tapia.
