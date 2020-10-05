@@ -1,0 +1,834 @@
+#This is just a Desing NOT FUNCTIONAL.
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://meetyourcosmos.centrosimes.cl/xmlrpc.php" />
+	<title>MeetYourCosmos Project &#8211; MeetYourCosmos Visualization Interface Demo for NASA SpaceApps Challenge 2020</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MeetYourCosmos Project &raquo; Feed" href="https://meetyourcosmos.centrosimes.cl/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MeetYourCosmos Project &raquo; Feed de los comentarios" href="https://meetyourcosmos.centrosimes.cl/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/meetyourcosmos.centrosimes.cl\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.1"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://meetyourcosmos.centrosimes.cl/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hfe-style-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-7-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/uploads/elementor/css/post-7.css?ver=1601856203' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/uploads/elementor/css/global.css?ver=1601823036' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/uploads/elementor/css/post-5.css?ver=1601865280' type='text/css' media='all' />
+<link rel='stylesheet' id='hfe-widgets-style-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-15-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/uploads/elementor/css/post-15.css?ver=1601848597' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-25-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/uploads/elementor/css/post-25.css?ver=1601859653' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/themes/hello-elementor/style.min.css?ver=2.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/themes/hello-elementor/theme.min.css?ver=2.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://meetyourcosmos.centrosimes.cl/wp-json/" /><link rel="alternate" type="application/json" href="https://meetyourcosmos.centrosimes.cl/wp-json/wp/v2/pages/5" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://meetyourcosmos.centrosimes.cl/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://meetyourcosmos.centrosimes.cl/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.1" />
+<link rel="canonical" href="https://meetyourcosmos.centrosimes.cl/" />
+<link rel='shortlink' href='https://meetyourcosmos.centrosimes.cl/' />
+<link rel="alternate" type="application/json+oembed" href="https://meetyourcosmos.centrosimes.cl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmeetyourcosmos.centrosimes.cl%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://meetyourcosmos.centrosimes.cl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmeetyourcosmos.centrosimes.cl%2F&#038;format=xml" />
+				<style type="text/css">
+					@font-face { font-family:Helvetica Neue;src:url(https://meetyourcosmos.centrosimes.cl/wp-content/uploads/2020/10/HelveticaNeueRegular.woff) format('woff');font-display: http://auto;}@font-face { font-family:Helvetica Neue Bold;src:url(https://meetyourcosmos.centrosimes.cl/wp-content/uploads/2020/10/HelveticaNeueBold.woff) format('woff');font-display: http://auto;}@font-face { font-family:Source Sans Pro Bold;src:url(https://meetyourcosmos.centrosimes.cl/wp-content/uploads/2020/10/sourcesanspro-bold-webfont.woff2) format('woff2');font-display: http://auto;}@font-face { font-family:Source Sans Pro Regular;src:url(https://meetyourcosmos.centrosimes.cl/wp-content/uploads/2020/10/sourcesanspro-regular-webfont.woff2) format('woff2');font-display: http://auto;}				</style>
+				</head>
+
+<body class="home page-template-default page page-id-5 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor elementor-default elementor-kit-7 elementor-page elementor-page-5">
+<div id="page" class="hfeed site">
+
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://meetyourcosmos.centrosimes.cl" title="MeetYourCosmos Project" rel="home">MeetYourCosmos Project</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="15" class="elementor elementor-15" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-16128cf elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="16128cf" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-17ce9ed" data-id="17ce9ed" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7237994 elementor-view-default elementor-widget elementor-widget-icon" data-id="7237994" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 98.101996 80.279999" height="80.279999" width="98.101997" y="0px" x="0px" id="Layer_2"><metadata></metadata><defs id="defs3600"></defs><g transform="translate(-4.448,-4.8600006)" id="g3490"><g id="g3492"><g id="g3494"><circle style="fill:#0b3d91" id="circle3496" r="40.139999" cy="45" cx="50.049"></circle></g><g id="g3498"><circle style="fill:#ffffff" id="circle3500" r="0.44999999" cy="12.57" cx="47.679001"></circle><circle style="fill:#ffffff" id="circle3502" r="0.44999999" cy="13.17" cx="52.299"></circle><circle style="fill:#ffffff" id="circle3504" r="0.44999999" cy="21.33" cx="58.359001"></circle><circle style="fill:#ffffff" id="circle3506" r="0.44999999" cy="63.330002" cx="25.118999"></circle><circle style="fill:#ffffff" id="circle3508" r="0.44999999" cy="66.93" cx="26.289"></circle><circle style="fill:#ffffff" id="circle3510" r="0.33700001" cy="63.869999" cx="20.709"></circle><circle style="fill:#ffffff" id="circle3512" r="0.338" cy="70.942001" cx="39.008999"></circle><circle style="fill:#ffffff" id="circle3514" r="0.33700001" cy="64.980003" cx="67.710999"></circle><circle style="fill:#ffffff" id="circle3516" r="0.338" cy="55.919998" cx="76.052002"></circle><circle style="fill:#ffffff" id="circle3518" r="0.33700001" cy="23.962" cx="35.168999"></circle><circle style="fill:#ffffff" id="circle3520" r="0.33700001" cy="17.219999" cx="44.348999"></circle><circle style="fill:#ffffff" id="circle3522" r="0.33700001" cy="16.559999" cx="43.352001"></circle><circle style="fill:#ffffff" id="circle3524" r="0.33700001" cy="15.9" cx="42.452"></circle><circle style="fill:#ffffff" id="circle3526" r="0.33700001" cy="25.702999" cx="36.609001"></circle><circle style="fill:#ffffff" id="circle3528" r="0.33700001" cy="8.1599998" cx="50.131001"></circle><circle style="fill:#ffffff" id="circle3530" r="0.33700001" cy="17.879999" cx="52.352001"></circle><circle style="fill:#ffffff" id="circle3532" r="0.33700001" cy="15.982" cx="48.848999"></circle><circle style="fill:#ffffff" id="circle3534" r="0.33700001" cy="18.563" cx="42.848999"></circle><circle style="fill:#ffffff" id="circle3536" r="0.33700001" cy="73.883003" cx="69.308998"></circle><circle style="fill:#ffffff" id="circle3538" r="0.338" cy="65.610001" cx="24.549"></circle><circle style="fill:#ffffff" id="circle3540" r="0.338" cy="69.959999" cx="48.008999"></circle><circle style="fill:#ffffff" id="circle3542" r="0.338" cy="65.339996" cx="31.531"></circle><circle style="fill:#ffffff" id="circle3544" r="0.338" cy="70.102997" cx="34.449001"></circle><circle style="fill:#ffffff" id="circle3546" r="0.33700001" cy="67.102997" cx="55.929001"></circle><circle style="fill:#ffffff" id="circle3548" r="0.33700001" cy="60.419998" cx="67.771004"></circle><circle style="fill:#ffffff" id="circle3550" r="0.33700001" cy="64.522003" cx="76.749001"></circle><circle style="fill:#ffffff" id="circle3552" r="0.33700001" cy="66.480003" cx="79.808998"></circle><circle style="fill:#ffffff" id="circle3554" r="0.33700001" cy="61.139999" cx="80.311996"></circle><circle style="fill:#ffffff" id="circle3556" r="0.33700001" cy="53.580002" cx="35.671001"></circle><circle style="fill:#ffffff" id="circle3558" r="0.44999999" cy="61.32" cx="35.799"></circle><circle style="fill:#ffffff" id="circle3560" r="0.44999999" cy="67.019997" cx="38.499001"></circle><circle style="fill:#ffffff" id="circle3562" r="0.44999999" cy="61.080002" cx="70.838997"></circle><circle style="fill:#ffffff" id="circle3564" r="0.44999999" cy="60.419998" cx="82.478996"></circle><circle style="fill:#ffffff" id="circle3566" r="0.44999999" cy="57.959999" cx="76.719002"></circle><circle style="fill:#ffffff" id="circle3568" r="0.44999999" cy="58.200001" cx="70.838997"></circle><path style="fill:#ffffff" id="path3570" d="m 58.71,12.288 1.119,-0.107 -1.117,-0.063 c -0.035,-0.216 -0.208,-0.385 -0.426,-0.413 l -0.107,-1.114 -0.064,1.123 c -0.202,0.045 -0.357,0.214 -0.382,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.061,-1.146 c 0.207,-0.035 0.371,-0.194 0.41,-0.398 z"></path><path style="fill:#ffffff" id="path3572" d="m 39.824,24.746 1.119,-0.107 -1.117,-0.063 C 39.792,24.36 39.618,24.191 39.4,24.163 l -0.107,-1.114 -0.063,1.123 c -0.203,0.045 -0.358,0.214 -0.383,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.207,-0.034 0.371,-0.194 0.409,-0.398 z"></path><path style="fill:#ffffff" id="path3574" d="m 81.659,57.684 1.119,-0.107 -1.117,-0.063 c -0.034,-0.216 -0.208,-0.385 -0.426,-0.413 l -0.107,-1.114 -0.063,1.123 c -0.202,0.045 -0.357,0.214 -0.382,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.205,-0.034 0.369,-0.193 0.408,-0.398 z"></path><path style="fill:#ffffff" id="path3576" d="m 36.044,74.906 1.119,-0.107 -1.117,-0.063 C 36.011,74.52 35.838,74.351 35.62,74.323 L 35.513,73.21 35.45,74.332 c -0.203,0.045 -0.358,0.214 -0.383,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.345 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.206,-0.034 0.371,-0.194 0.409,-0.398 z"></path><path style="fill:#ffffff" id="path3578" d="m 78.104,66.506 1.119,-0.107 -1.117,-0.063 C 78.072,66.12 77.898,65.951 77.68,65.923 l -0.107,-1.114 -0.063,1.122 c -0.202,0.045 -0.357,0.214 -0.382,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.205,-0.033 0.37,-0.193 0.408,-0.397 z"></path></g><g id="g3580"><g id="g3582"><path style="fill:#fc3d21" id="path3584" d="m 59.568,35.385 c -4.667,1.814 -9.219,3.433 -13.06,4.635 -7.805,2.444 -29.16,9.06 -42.06,17.4 l 1.08,0.42 c 7.86,-4.44 12.969,-5.835 17.88,-7.38 5.34,-1.68 22.603,-5.72 30.42,-7.92 2.641,-0.743 5.734,-1.716 9.01,-2.9 -0.762,-1.063 -1.566,-2.129 -2.412,-3.193 -0.283,-0.359 -0.57,-0.713 -0.858,-1.062 z m 5.702,7.859 C 64.14,44.007 63.193,44.616 62.53,45 58.69,47.22 39.969,60 35.71,62.94 31.451,65.88 19.63,77.04 16.15,80.28 l -0.12,1.319 C 27.25,71.519 30.77,69.033 35.23,65.64 40.75,61.44 52.169,53.67 56.05,51.18 59.76,48.8 63.106,46.611 66.109,44.608 66.06,44.526 66.011,44.444 65.962,44.361 65.736,43.99 65.505,43.618 65.27,43.244 Z M 82.809,24.72 c -5.466,3.204 -14.081,7.071 -22.439,10.352 0.2,0.245 0.399,0.492 0.597,0.741 0.934,1.176 1.815,2.36 2.644,3.545 6.57,-2.42 13.779,-5.668 19.499,-9.599 -2.725,2.582 -11.734,9.315 -17.227,13.068 0.283,0.461 0.557,0.922 0.822,1.381 8.322,-5.569 13.922,-9.668 17.185,-12.409 4.5,-3.78 14.76,-12.24 18.66,-23.58 -6.841,8.701 -14.929,13.68 -19.741,16.501 z"></path></g></g><path style="fill:#ffffff" id="path3586" d="m 44.884,54.939 c -0.885,-1.114 -2.109,-2.606 -3.028,-3.763 -1.229,-1.547 -2.366,-3.11 -3.408,-4.671 -0.34,0.085 -0.679,0.17 -1.018,0.255 1.258,1.963 2.655,3.923 4.177,5.839 1.112,1.4 2.123,2.527 2.641,3.228 0.105,0.142 0.313,0.456 0.594,0.874 0.324,-0.22 0.651,-0.442 0.981,-0.666 -0.319,-0.347 -0.634,-0.712 -0.939,-1.096 z m 6.46,5.864 c -0.727,-0.688 -2.49,-1.837 -4.325,-3.561 -0.405,0.278 -0.814,0.56 -1.224,0.844 1.185,1.67 2.799,3.721 4.063,4.319 1.904,0.902 2.417,-0.72 1.486,-1.602 z m 9.623,-24.99 C 50.475,22.607 37.658,15.352 32.132,19.743 c -4.292,3.41 -2.53,13.376 3.386,23.845 0.306,-0.105 0.609,-0.208 0.909,-0.31 -5.971,-10.2 -7.605,-19.679 -3.557,-22.896 5.087,-4.042 17.37,3.241 27.558,16.064 2.109,2.654 3.963,5.318 5.533,7.915 6.012,9.95 7.857,18.948 3.703,22.621 -1.271,1.124 -5.155,1.565 -10.243,-0.725 -0.071,0.089 0.043,0.33 0.132,0.389 4.392,1.766 8.599,2.439 10.723,0.752 5.104,-4.056 1.183,-18.379 -9.309,-31.585 z"></path><g id="g3588"><path style="fill:#ffffff" id="path3590" d="m 15.969,37.38 6.72,0 5.64,9.57 c 0,0 0,-6.93 0,-7.47 0,-0.84 -1.065,-1.935 -1.44,-2.1 0.45,0 4.38,0 4.65,0 -0.285,0.075 -1.2,1.185 -1.2,2.1 0,0.45 0,10.5 0,10.98 0,0.675 0.975,1.605 1.44,1.965 l -6.48,0 -5.73,-9.615 c 0,0 0,7.17 0,7.56 0,0.75 0.735,1.47 1.5,2.085 l -4.95,0 c 0.705,-0.3 1.38,-1.245 1.44,-1.995 0.06,-0.75 0,-10.425 0,-10.845 0,-0.915 -0.885,-1.665 -1.59,-2.235 z"></path><path style="fill:#ffffff" id="path3592" d="m 77.439,52.425 8.94,0 c -0.495,-0.12 -1.05,-0.705 -1.35,-1.485 -0.3,-0.78 -5.04,-13.56 -5.04,-13.56 l -3.399,0 c -0.964,0.694 -1.997,1.426 -3.1,2.197 -0.003,0.028 -0.006,0.056 -0.011,0.083 -0.148,0.9 -2.808,10.534 -2.97,11.01 -0.225,0.66 -1.38,1.395 -1.845,1.785 l 4.815,0 c -0.48,-0.54 -0.87,-1.065 -0.78,-1.665 0.09,-0.6 0.36,-1.8 0.36,-1.8 l 4.98,0 c 0.225,0.6 0.393,1.139 0.48,1.65 0.105,0.615 -0.525,1.305 -1.08,1.785 z m -3.93,-5.355 1.68,-5.49 2.22,5.49 -3.9,0 z m -0.757,-9.142 c 0.247,-0.182 0.495,-0.365 0.742,-0.548 l -1.305,0 c 0.13,0.12 0.345,0.309 0.563,0.548 z"></path><path style="fill:#ffffff" id="path3594" d="m 38.559,50.79 c 0.09,-0.6 0.36,-1.8 0.36,-1.8 l 4.98,0 c 0.225,0.6 0.393,1.139 0.48,1.65 0.105,0.615 -0.525,1.305 -1.08,1.785 l 7.871,0 c 0.164,-0.11 0.327,-0.22 0.49,-0.329 -0.305,-0.27 -0.586,-0.675 -0.771,-1.156 -0.3,-0.78 -5.04,-13.56 -5.04,-13.56 l -7.8,0 c 0.375,0.345 1.455,1.275 1.29,2.28 -0.147,0.9 -2.808,10.534 -2.97,11.01 -0.225,0.66 -1.38,1.395 -1.845,1.785 l 4.815,0 c -0.48,-0.54 -0.87,-1.065 -0.78,-1.665 z m 2.49,-9.21 2.22,5.49 -3.9,0 1.68,-5.49 z"></path><path style="fill:#ffffff" id="path3596" d="m 65.748,44.848 c -1.468,0.978 -3.017,1.999 -4.649,3.065 0.732,0.355 1.315,0.801 1.371,1.377 0.104,1.082 -2.07,1.605 -4.035,1.38 -0.393,-0.045 -0.779,-0.148 -1.147,-0.286 -0.408,0.263 -0.82,0.528 -1.238,0.796 -0.425,0.273 -0.941,0.609 -1.53,0.997 l 0,1.553 c 0.39,-0.765 1.243,-1.45 1.905,-1.485 0.285,-0.015 1.275,0.9 5.355,0.675 1.98,-0.109 5.805,-2.22 5.745,-4.65 -0.036,-1.436 -0.786,-2.556 -1.777,-3.422 z m -11.229,3.752 0,1.582 c 0.361,-0.241 0.717,-0.478 1.066,-0.709 -0.549,-0.382 -0.938,-0.739 -1.066,-0.873 z m 9.834,-4.745 c -0.38,-0.225 -0.765,-0.422 -1.134,-0.596 -1.92,-0.9 -3.93,-1.065 -4.35,-2.28 -0.296,-0.857 0.54,-1.65 2.58,-1.62 2.04,0.03 3.93,1.245 4.44,1.68 l 0,-3.87 c -0.15,0.15 -0.808,0.905 -1.41,0.78 -1.155,-0.24 -3.12,-0.553 -5.37,-0.54 -2.58,0.015 -4.8,2.009 -4.875,4.53 -0.105,3.525 2.715,4.485 4.305,5.04 0.164,0.057 0.351,0.118 0.554,0.183 1.525,-0.992 2.731,-1.756 3.437,-2.163 0.474,-0.273 1.095,-0.665 1.823,-1.144 z"></path></g></g></g></svg>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-8775d80" data-id="8775d80" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-9bb45ad elementor-widget elementor-widget-heading" data-id="9bb45ad" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">MeetYourCosmos</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-eb2e6fc elementor-widget elementor-widget-heading" data-id="eb2e6fc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Virtual Telescope</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-013d082" data-id="013d082" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+				</header>
+
+	
+<main class="site-main post-5 page type-page status-publish hentry" role="main">
+		<div class="page-content">
+				<div data-elementor-type="wp-post" data-elementor-id="5" class="elementor elementor-5" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-9a20212 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9a20212" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-82c7773" data-id="82c7773" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0430906 elementor-widget elementor-widget-spacer" data-id="0430906" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-48cd76b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="48cd76b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-67b29b8" data-id="67b29b8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-44a2a10 elementor-view-default elementor-widget elementor-widget-icon" data-id="44a2a10" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-search"></i>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-829a0dd" data-id="829a0dd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e9c6bce elementor-widget elementor-widget-heading" data-id="e9c6bce" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Search by: Coordinates, Time zone and more...</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-663a5dc elementor-widget elementor-widget-heading" data-id="663a5dc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Example: NGC4044 or La Serena, 22:45 hrs</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-538d58b elementor-widget elementor-widget-spacer" data-id="538d58b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cf443ee elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="cf443ee" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-24cba82 elementor-widget elementor-widget-heading" data-id="24cba82" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Or use the Advanced Search</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b624c09 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b624c09" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-0fdb1d6" data-id="0fdb1d6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fb82aaf elementor-widget elementor-widget-heading" data-id="fb82aaf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Identifier:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-0d523b3" data-id="0d523b3" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-e35bb49" data-id="e35bb49" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-4079820" data-id="4079820" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-defb34e elementor-widget elementor-widget-heading" data-id="defb34e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">From:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-ed8e697" data-id="ed8e697" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3575a78 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3575a78" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-76fdae6" data-id="76fdae6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6c71e3a elementor-widget elementor-widget-heading" data-id="6c71e3a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">AR:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-e3aef93" data-id="e3aef93" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-274fe90" data-id="274fe90" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-e94b3f9" data-id="e94b3f9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4c10216 elementor-widget elementor-widget-heading" data-id="4c10216" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">To:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-11c324a" data-id="11c324a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a3ea388 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3ea388" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-986c8d2" data-id="986c8d2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bd58373 elementor-widget elementor-widget-heading" data-id="bd58373" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Dec:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fed0932" data-id="fed0932" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9c4ce26" data-id="9c4ce26" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4e227de elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e227de" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1669547" data-id="1669547" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-df8e6f9 elementor-widget elementor-widget-heading" data-id="df8e6f9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Radius:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0d8adb3" data-id="0d8adb3" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-632ee29" data-id="632ee29" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-0da9d9d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="0da9d9d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-13e48ed elementor-widget elementor-widget-heading" data-id="13e48ed" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">By Query</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a944ba8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a944ba8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9b5e2fb" data-id="9b5e2fb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b3b80e8 elementor-widget elementor-widget-heading" data-id="b3b80e8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Choose a catalog:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4632d53" data-id="4632d53" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-027cfb4 elementor-widget elementor-widget-heading" data-id="027cfb4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ex: Binary Stars</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d75674e" data-id="d75674e" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-38ef63a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="38ef63a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6953a11" data-id="6953a11" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6eb9405 elementor-view-default elementor-widget elementor-widget-icon" data-id="6eb9405" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-check-square"></i>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-3ae38e3" data-id="3ae38e3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-87ccc87 elementor-widget elementor-widget-heading" data-id="87ccc87" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Solar masses:</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6a543ab" data-id="6a543ab" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-01d2d4f elementor-widget elementor-widget-heading" data-id="01d2d4f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">10-80</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-310974d" data-id="310974d" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-998f1a5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="998f1a5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b765098" data-id="b765098" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e155018 elementor-view-default elementor-widget elementor-widget-icon" data-id="e155018" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-square"></i>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-69f6a98" data-id="69f6a98" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bcfcde7 elementor-widget elementor-widget-heading" data-id="bcfcde7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Radial Velocity</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0c40ee6" data-id="0c40ee6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e9833d1" data-id="e9833d1" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-f48676a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f48676a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cfb5e9a" data-id="cfb5e9a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-21c943f elementor-view-default elementor-widget elementor-widget-icon" data-id="21c943f" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-check-square"></i>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-85713ed" data-id="85713ed" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6d53002 elementor-widget elementor-widget-heading" data-id="6d53002" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Spectral Type</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-72ee4f1" data-id="72ee4f1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-99a0901 elementor-widget elementor-widget-heading" data-id="99a0901" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">0</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d562b15" data-id="d562b15" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3250d5a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3250d5a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-edd0429" data-id="edd0429" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c6647bf elementor-view-default elementor-widget elementor-widget-icon" data-id="c6647bf" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-square"></i>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1d3c2fc" data-id="1d3c2fc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a350961 elementor-widget elementor-widget-heading" data-id="a350961" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Absolute Magnitude</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e6326a6" data-id="e6326a6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6ebefb6 elementor-widget elementor-widget-heading" data-id="6ebefb6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">0</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b44329a" data-id="b44329a" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-78a6f77 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="78a6f77" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7339117" data-id="7339117" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-364c0f7 elementor-view-default elementor-widget elementor-widget-icon" data-id="364c0f7" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-check-square"></i>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7af9bcc" data-id="7af9bcc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-81fce9b elementor-widget elementor-widget-heading" data-id="81fce9b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Approximated Magnitude</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6b50642" data-id="6b50642" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-06f08dc elementor-widget elementor-widget-heading" data-id="06f08dc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">5&lt;</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6d35a08" data-id="6d35a08" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-c53e6d8 elementor-widget elementor-widget-spacer" data-id="c53e6d8" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-efe1191 elementor-align-center elementor-widget elementor-widget-button" data-id="efe1191" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Search</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-24c74e5 elementor-widget elementor-widget-spacer" data-id="24c74e5" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ff2b9a7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ff2b9a7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7ef34e2" data-id="7ef34e2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3b0ae85 elementor-widget elementor-widget-spacer" data-id="3b0ae85" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ef83b2a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ef83b2a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f57e845" data-id="f57e845" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ba07113 elementor-widget elementor-widget-heading" data-id="ba07113" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">A New User-Friendly Interface </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7ef10b3 elementor-widget elementor-widget-text-editor" data-id="7ef10b3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>To search data from the High Energy Astrophysics Science Archive Research Center.<br></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f680853" data-id="f680853" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-34becf0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="34becf0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ab77837" data-id="ab77837" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-736527f elementor-widget elementor-widget-spacer" data-id="736527f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+				<div class="post-tags">
+					</div>
+			</div>
+
+	<section id="comments" class="comments-area">
+
+	
+
+
+</section><!-- .comments-area -->
+</main>
+
+	
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class='footer-width-fixer'>		<div data-elementor-type="wp-post" data-elementor-id="25" class="elementor elementor-25" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-83587b9 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="83587b9" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ae38ab4" data-id="ae38ab4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-464fb06 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="464fb06" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6190046" data-id="6190046" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3cb3560 elementor-view-default elementor-widget elementor-widget-icon" data-id="3cb3560" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 98.101996 80.279999" height="80.279999" width="98.101997" y="0px" x="0px" id="Layer_2"><metadata></metadata><defs id="defs3600"></defs><g transform="translate(-4.448,-4.8600006)" id="g3490"><g id="g3492"><g id="g3494"><circle style="fill:#0b3d91" id="circle3496" r="40.139999" cy="45" cx="50.049"></circle></g><g id="g3498"><circle style="fill:#ffffff" id="circle3500" r="0.44999999" cy="12.57" cx="47.679001"></circle><circle style="fill:#ffffff" id="circle3502" r="0.44999999" cy="13.17" cx="52.299"></circle><circle style="fill:#ffffff" id="circle3504" r="0.44999999" cy="21.33" cx="58.359001"></circle><circle style="fill:#ffffff" id="circle3506" r="0.44999999" cy="63.330002" cx="25.118999"></circle><circle style="fill:#ffffff" id="circle3508" r="0.44999999" cy="66.93" cx="26.289"></circle><circle style="fill:#ffffff" id="circle3510" r="0.33700001" cy="63.869999" cx="20.709"></circle><circle style="fill:#ffffff" id="circle3512" r="0.338" cy="70.942001" cx="39.008999"></circle><circle style="fill:#ffffff" id="circle3514" r="0.33700001" cy="64.980003" cx="67.710999"></circle><circle style="fill:#ffffff" id="circle3516" r="0.338" cy="55.919998" cx="76.052002"></circle><circle style="fill:#ffffff" id="circle3518" r="0.33700001" cy="23.962" cx="35.168999"></circle><circle style="fill:#ffffff" id="circle3520" r="0.33700001" cy="17.219999" cx="44.348999"></circle><circle style="fill:#ffffff" id="circle3522" r="0.33700001" cy="16.559999" cx="43.352001"></circle><circle style="fill:#ffffff" id="circle3524" r="0.33700001" cy="15.9" cx="42.452"></circle><circle style="fill:#ffffff" id="circle3526" r="0.33700001" cy="25.702999" cx="36.609001"></circle><circle style="fill:#ffffff" id="circle3528" r="0.33700001" cy="8.1599998" cx="50.131001"></circle><circle style="fill:#ffffff" id="circle3530" r="0.33700001" cy="17.879999" cx="52.352001"></circle><circle style="fill:#ffffff" id="circle3532" r="0.33700001" cy="15.982" cx="48.848999"></circle><circle style="fill:#ffffff" id="circle3534" r="0.33700001" cy="18.563" cx="42.848999"></circle><circle style="fill:#ffffff" id="circle3536" r="0.33700001" cy="73.883003" cx="69.308998"></circle><circle style="fill:#ffffff" id="circle3538" r="0.338" cy="65.610001" cx="24.549"></circle><circle style="fill:#ffffff" id="circle3540" r="0.338" cy="69.959999" cx="48.008999"></circle><circle style="fill:#ffffff" id="circle3542" r="0.338" cy="65.339996" cx="31.531"></circle><circle style="fill:#ffffff" id="circle3544" r="0.338" cy="70.102997" cx="34.449001"></circle><circle style="fill:#ffffff" id="circle3546" r="0.33700001" cy="67.102997" cx="55.929001"></circle><circle style="fill:#ffffff" id="circle3548" r="0.33700001" cy="60.419998" cx="67.771004"></circle><circle style="fill:#ffffff" id="circle3550" r="0.33700001" cy="64.522003" cx="76.749001"></circle><circle style="fill:#ffffff" id="circle3552" r="0.33700001" cy="66.480003" cx="79.808998"></circle><circle style="fill:#ffffff" id="circle3554" r="0.33700001" cy="61.139999" cx="80.311996"></circle><circle style="fill:#ffffff" id="circle3556" r="0.33700001" cy="53.580002" cx="35.671001"></circle><circle style="fill:#ffffff" id="circle3558" r="0.44999999" cy="61.32" cx="35.799"></circle><circle style="fill:#ffffff" id="circle3560" r="0.44999999" cy="67.019997" cx="38.499001"></circle><circle style="fill:#ffffff" id="circle3562" r="0.44999999" cy="61.080002" cx="70.838997"></circle><circle style="fill:#ffffff" id="circle3564" r="0.44999999" cy="60.419998" cx="82.478996"></circle><circle style="fill:#ffffff" id="circle3566" r="0.44999999" cy="57.959999" cx="76.719002"></circle><circle style="fill:#ffffff" id="circle3568" r="0.44999999" cy="58.200001" cx="70.838997"></circle><path style="fill:#ffffff" id="path3570" d="m 58.71,12.288 1.119,-0.107 -1.117,-0.063 c -0.035,-0.216 -0.208,-0.385 -0.426,-0.413 l -0.107,-1.114 -0.064,1.123 c -0.202,0.045 -0.357,0.214 -0.382,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.061,-1.146 c 0.207,-0.035 0.371,-0.194 0.41,-0.398 z"></path><path style="fill:#ffffff" id="path3572" d="m 39.824,24.746 1.119,-0.107 -1.117,-0.063 C 39.792,24.36 39.618,24.191 39.4,24.163 l -0.107,-1.114 -0.063,1.123 c -0.203,0.045 -0.358,0.214 -0.383,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.207,-0.034 0.371,-0.194 0.409,-0.398 z"></path><path style="fill:#ffffff" id="path3574" d="m 81.659,57.684 1.119,-0.107 -1.117,-0.063 c -0.034,-0.216 -0.208,-0.385 -0.426,-0.413 l -0.107,-1.114 -0.063,1.123 c -0.202,0.045 -0.357,0.214 -0.382,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.205,-0.034 0.369,-0.193 0.408,-0.398 z"></path><path style="fill:#ffffff" id="path3576" d="m 36.044,74.906 1.119,-0.107 -1.117,-0.063 C 36.011,74.52 35.838,74.351 35.62,74.323 L 35.513,73.21 35.45,74.332 c -0.203,0.045 -0.358,0.214 -0.383,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.345 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.206,-0.034 0.371,-0.194 0.409,-0.398 z"></path><path style="fill:#ffffff" id="path3578" d="m 78.104,66.506 1.119,-0.107 -1.117,-0.063 C 78.072,66.12 77.898,65.951 77.68,65.923 l -0.107,-1.114 -0.063,1.122 c -0.202,0.045 -0.357,0.214 -0.382,0.424 l -1.144,0.104 1.152,0.062 c 0.042,0.193 0.198,0.344 0.394,0.38 l 0.104,1.148 0.062,-1.146 c 0.205,-0.033 0.37,-0.193 0.408,-0.397 z"></path></g><g id="g3580"><g id="g3582"><path style="fill:#fc3d21" id="path3584" d="m 59.568,35.385 c -4.667,1.814 -9.219,3.433 -13.06,4.635 -7.805,2.444 -29.16,9.06 -42.06,17.4 l 1.08,0.42 c 7.86,-4.44 12.969,-5.835 17.88,-7.38 5.34,-1.68 22.603,-5.72 30.42,-7.92 2.641,-0.743 5.734,-1.716 9.01,-2.9 -0.762,-1.063 -1.566,-2.129 -2.412,-3.193 -0.283,-0.359 -0.57,-0.713 -0.858,-1.062 z m 5.702,7.859 C 64.14,44.007 63.193,44.616 62.53,45 58.69,47.22 39.969,60 35.71,62.94 31.451,65.88 19.63,77.04 16.15,80.28 l -0.12,1.319 C 27.25,71.519 30.77,69.033 35.23,65.64 40.75,61.44 52.169,53.67 56.05,51.18 59.76,48.8 63.106,46.611 66.109,44.608 66.06,44.526 66.011,44.444 65.962,44.361 65.736,43.99 65.505,43.618 65.27,43.244 Z M 82.809,24.72 c -5.466,3.204 -14.081,7.071 -22.439,10.352 0.2,0.245 0.399,0.492 0.597,0.741 0.934,1.176 1.815,2.36 2.644,3.545 6.57,-2.42 13.779,-5.668 19.499,-9.599 -2.725,2.582 -11.734,9.315 -17.227,13.068 0.283,0.461 0.557,0.922 0.822,1.381 8.322,-5.569 13.922,-9.668 17.185,-12.409 4.5,-3.78 14.76,-12.24 18.66,-23.58 -6.841,8.701 -14.929,13.68 -19.741,16.501 z"></path></g></g><path style="fill:#ffffff" id="path3586" d="m 44.884,54.939 c -0.885,-1.114 -2.109,-2.606 -3.028,-3.763 -1.229,-1.547 -2.366,-3.11 -3.408,-4.671 -0.34,0.085 -0.679,0.17 -1.018,0.255 1.258,1.963 2.655,3.923 4.177,5.839 1.112,1.4 2.123,2.527 2.641,3.228 0.105,0.142 0.313,0.456 0.594,0.874 0.324,-0.22 0.651,-0.442 0.981,-0.666 -0.319,-0.347 -0.634,-0.712 -0.939,-1.096 z m 6.46,5.864 c -0.727,-0.688 -2.49,-1.837 -4.325,-3.561 -0.405,0.278 -0.814,0.56 -1.224,0.844 1.185,1.67 2.799,3.721 4.063,4.319 1.904,0.902 2.417,-0.72 1.486,-1.602 z m 9.623,-24.99 C 50.475,22.607 37.658,15.352 32.132,19.743 c -4.292,3.41 -2.53,13.376 3.386,23.845 0.306,-0.105 0.609,-0.208 0.909,-0.31 -5.971,-10.2 -7.605,-19.679 -3.557,-22.896 5.087,-4.042 17.37,3.241 27.558,16.064 2.109,2.654 3.963,5.318 5.533,7.915 6.012,9.95 7.857,18.948 3.703,22.621 -1.271,1.124 -5.155,1.565 -10.243,-0.725 -0.071,0.089 0.043,0.33 0.132,0.389 4.392,1.766 8.599,2.439 10.723,0.752 5.104,-4.056 1.183,-18.379 -9.309,-31.585 z"></path><g id="g3588"><path style="fill:#ffffff" id="path3590" d="m 15.969,37.38 6.72,0 5.64,9.57 c 0,0 0,-6.93 0,-7.47 0,-0.84 -1.065,-1.935 -1.44,-2.1 0.45,0 4.38,0 4.65,0 -0.285,0.075 -1.2,1.185 -1.2,2.1 0,0.45 0,10.5 0,10.98 0,0.675 0.975,1.605 1.44,1.965 l -6.48,0 -5.73,-9.615 c 0,0 0,7.17 0,7.56 0,0.75 0.735,1.47 1.5,2.085 l -4.95,0 c 0.705,-0.3 1.38,-1.245 1.44,-1.995 0.06,-0.75 0,-10.425 0,-10.845 0,-0.915 -0.885,-1.665 -1.59,-2.235 z"></path><path style="fill:#ffffff" id="path3592" d="m 77.439,52.425 8.94,0 c -0.495,-0.12 -1.05,-0.705 -1.35,-1.485 -0.3,-0.78 -5.04,-13.56 -5.04,-13.56 l -3.399,0 c -0.964,0.694 -1.997,1.426 -3.1,2.197 -0.003,0.028 -0.006,0.056 -0.011,0.083 -0.148,0.9 -2.808,10.534 -2.97,11.01 -0.225,0.66 -1.38,1.395 -1.845,1.785 l 4.815,0 c -0.48,-0.54 -0.87,-1.065 -0.78,-1.665 0.09,-0.6 0.36,-1.8 0.36,-1.8 l 4.98,0 c 0.225,0.6 0.393,1.139 0.48,1.65 0.105,0.615 -0.525,1.305 -1.08,1.785 z m -3.93,-5.355 1.68,-5.49 2.22,5.49 -3.9,0 z m -0.757,-9.142 c 0.247,-0.182 0.495,-0.365 0.742,-0.548 l -1.305,0 c 0.13,0.12 0.345,0.309 0.563,0.548 z"></path><path style="fill:#ffffff" id="path3594" d="m 38.559,50.79 c 0.09,-0.6 0.36,-1.8 0.36,-1.8 l 4.98,0 c 0.225,0.6 0.393,1.139 0.48,1.65 0.105,0.615 -0.525,1.305 -1.08,1.785 l 7.871,0 c 0.164,-0.11 0.327,-0.22 0.49,-0.329 -0.305,-0.27 -0.586,-0.675 -0.771,-1.156 -0.3,-0.78 -5.04,-13.56 -5.04,-13.56 l -7.8,0 c 0.375,0.345 1.455,1.275 1.29,2.28 -0.147,0.9 -2.808,10.534 -2.97,11.01 -0.225,0.66 -1.38,1.395 -1.845,1.785 l 4.815,0 c -0.48,-0.54 -0.87,-1.065 -0.78,-1.665 z m 2.49,-9.21 2.22,5.49 -3.9,0 1.68,-5.49 z"></path><path style="fill:#ffffff" id="path3596" d="m 65.748,44.848 c -1.468,0.978 -3.017,1.999 -4.649,3.065 0.732,0.355 1.315,0.801 1.371,1.377 0.104,1.082 -2.07,1.605 -4.035,1.38 -0.393,-0.045 -0.779,-0.148 -1.147,-0.286 -0.408,0.263 -0.82,0.528 -1.238,0.796 -0.425,0.273 -0.941,0.609 -1.53,0.997 l 0,1.553 c 0.39,-0.765 1.243,-1.45 1.905,-1.485 0.285,-0.015 1.275,0.9 5.355,0.675 1.98,-0.109 5.805,-2.22 5.745,-4.65 -0.036,-1.436 -0.786,-2.556 -1.777,-3.422 z m -11.229,3.752 0,1.582 c 0.361,-0.241 0.717,-0.478 1.066,-0.709 -0.549,-0.382 -0.938,-0.739 -1.066,-0.873 z m 9.834,-4.745 c -0.38,-0.225 -0.765,-0.422 -1.134,-0.596 -1.92,-0.9 -3.93,-1.065 -4.35,-2.28 -0.296,-0.857 0.54,-1.65 2.58,-1.62 2.04,0.03 3.93,1.245 4.44,1.68 l 0,-3.87 c -0.15,0.15 -0.808,0.905 -1.41,0.78 -1.155,-0.24 -3.12,-0.553 -5.37,-0.54 -2.58,0.015 -4.8,2.009 -4.875,4.53 -0.105,3.525 2.715,4.485 4.305,5.04 0.164,0.057 0.351,0.118 0.554,0.183 1.525,-0.992 2.731,-1.756 3.437,-2.163 0.474,-0.273 1.095,-0.665 1.823,-1.144 z"></path></g></g></g></svg>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-aa6736c" data-id="aa6736c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-88199f9 elementor-widget elementor-widget-heading" data-id="88199f9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">National Aeronautics and Space Administration</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-4406231 elementor-widget elementor-widget-text-editor" data-id="4406231" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #f1f1f1;">HEASARC Director: Dr. Alan P. Smale</span></p><p><span style="color: #f1f1f1;">NASA Official: Phil Newman</span></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-44b2364" data-id="44b2364" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0eb5578 elementor-widget elementor-widget-spacer" data-id="0eb5578" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b8001b6 elementor-shape-circle elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="b8001b6" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-f93446b" href="https://www.facebook.com/NASAGoddard" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-71c9e76" href="http://twitter.com/NASAGoddard" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-1c6e9f3" href="http://www.youtube.com/user/NASAexplorer" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-93d7b25" href="http://instagram.com/nasagoddard" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-flickr elementor-repeater-item-68d3570" href="http://www.flickr.com/photos/gsfc" target="_blank">
+						<span class="elementor-screen-only">Flickr</span>
+						<i class="fab fa-flickr"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bbdf98c elementor-widget elementor-widget-heading" data-id="bbdf98c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Goddard Space Flight Center</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0c9a385 elementor-widget elementor-widget-heading" data-id="0c9a385" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://heasarc.gsfc.nasa.gov">High Energy 
+Astrophysics Science Archive Research Center</a></h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</div>		</footer>
+	<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-includes/js/wp-embed.min.js?ver=5.5.1' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.11' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4' id='jquery-ui-position-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.11' id='share-link-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.11","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/meetyourcosmos.centrosimes.cl\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":5,"title":"MeetYourCosmos%20Project%20%E2%80%93%20MeetYourCosmos%20Visualization%20Interface%20Demo%20for%20NASA%20SpaceApps%20Challenge%202020","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='https://meetyourcosmos.centrosimes.cl/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.11' id='elementor-frontend-js'></script>
+</body>
+</html> 
