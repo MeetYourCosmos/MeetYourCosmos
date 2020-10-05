@@ -17,7 +17,7 @@ _Throughout the different stages of our project, various programs and programmin
 
 ## To Do
 * Connect database to web interface
-* Include dependencies of nasa press
+* Include dependencies of nasapress
 * Add graphical overview
 
 ## Team
